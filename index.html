@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inventory</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Inventory</h1>
+    <hr>
+    <h3 id="current-date"></h3>
+
+    <div class="container">
+        <div class="menubar">
+            <button class="menubar-add-button">Add</button>
+            <button class="menubar-remove-button">Remove</button>
+        </div>
+
+        <div class="list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Name<button class="sort-button">A-Z</button></th>
+                        <th>Quantity</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <button class="export-button">Export Inventory</button>
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; 2025 FSN. From my "Stuff" folder.</p>
+    </footer>
+</body>
+
+</html>
